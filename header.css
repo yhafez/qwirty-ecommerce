@@ -1,0 +1,113 @@
+.main-nav{
+    display: flex;
+    background-color: #4400cc;
+    color: white;
+    justify-content: space-between;
+    padding: 1.3vh .7vh .7vh .7vh;
+    align-items: baseline;
+}
+
+.main-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.sub-nav{
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+}
+
+.full-width{
+    display: none; 
+ }
+ 
+ .short-width{
+     display: flex;
+ }
+
+.nav-list a{
+    padding: 1vw;
+    padding-top: .8vw;
+    border-right: 1px solid;
+}
+
+.nav-list li:last-of-type a{
+    border-right: none;
+}
+
+.nav-list li{
+    list-style: none;
+}
+
+.sub-nav {
+    display: flex;
+    align-items: center;
+    margin-top: .5vw;
+}
+
+.search-form{
+    display: flex;
+    flex-grow: 1;
+    padding: 1vh;
+}
+
+.search-form input{
+    flex-grow: 1;
+    border: none;
+    padding: .5vh;
+    align-items: center;
+}
+
+.search-form button{
+    border: none;
+    padding: .3vh .3vh .2vh .4vh;
+    align-items: center;
+    background-color: #4400cc;
+    color: white;
+}
+
+.company-name{
+    color: #4400cc;
+    font-size: 3vh;
+    padding: .5vh 4.5vh .5vh 5.5vh;
+}
+
+.credit-offer{
+    text-decoration: none;
+    color: lightgrey;
+    background-color: #ee0000;
+    margin: .3vh 1vh .5vh 1vh;
+    padding: .5vh;
+    text-align: center;
+
+}
+
+@media (min-width: 768px){
+     
+    .short-width{
+         display: none;
+     }
+
+     .full-width{
+         display: flex;
+     }
+
+}
+
+@media (max-width: 1080px){
+
+    header a{
+        font-size: 1.1vw;
+    }
+    
+}
+
+@media (max-width: 768px){
+    header a{
+        font-size: 1.4vw;
+    }
+    
+}

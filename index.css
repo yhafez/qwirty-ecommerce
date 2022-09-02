@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-content: space-around;
+  }
+  
+  header, footer { 
+    flex: none; 
+  }
+  
+  main {
+    display: flex;
+    flex: 1 0 auto;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: .8vw;
+    margin-bottom: .4vh;
+}
